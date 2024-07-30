@@ -55,6 +55,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         PhotonNetwork.AutomaticallySyncScene = true;
     }
 
+
     // Update is called once per frame
     private void Update()
     {
@@ -136,6 +137,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             PhotonNetwork.LoadLevel("GameScene");
         }
     }
+
+ 
 
     #endregion
 

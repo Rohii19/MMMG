@@ -383,6 +383,12 @@
 "Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs"
 "Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/PlayerModelsAndAnimations/Easy FPS/Easy FPS/Scripts/BulletScript.cs"
+"Assets/PlayerModelsAndAnimations/Easy FPS/Easy FPS/Scripts/DestroyAfterTimeParticle.cs"
+"Assets/PlayerModelsAndAnimations/Easy FPS/Easy FPS/Scripts/GunInventory.cs"
+"Assets/PlayerModelsAndAnimations/Easy FPS/Easy FPS/Scripts/GunScript.cs"
+"Assets/PlayerModelsAndAnimations/Easy FPS/Easy FPS/Scripts/MouseLookScript.cs"
+"Assets/PlayerModelsAndAnimations/Easy FPS/Easy FPS/Scripts/PlayerMovementScript.cs"
 "Assets/Prefabs/RohithPrefab/WallDuplicator.cs"
 "Assets/Scripts/NetworkManager.cs"
 -langversion:9.0
