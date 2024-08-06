@@ -15,7 +15,7 @@ D:/Github/MMMG/MMMG/MMMG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59721
+61005
 Successfully changed project path to: D:/Github/MMMG/MMMG/MMMG
 D:/Github/MMMG/MMMG/MMMG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Github/MMMG/MMMG/MMMG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7860] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 190622467 [EditorId] 190622467 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [40236] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 4036783549 [EditorId] 4036783549 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7860] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 190622467 [EditorId] 190622467 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [40236] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 4036783549 [EditorId] 4036783549 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 9.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path D:/maya/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'D:/maya/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'D:/maya/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/maya/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/maya/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/maya/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/maya/2022.3.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.017876 seconds.
-- Loaded All Assemblies, in  0.686 seconds
+Registered in 0.004911 seconds.
+- Loaded All Assemblies, in  0.490 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 415 ms
+Android Extension - Scanning For ADB Devices 339 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.879 seconds
-Domain Reload Profiling: 1564ms
-	BeginReloadAssembly (173ms)
+- Finished resetting the current domain, in  0.704 seconds
+Domain Reload Profiling: 1194ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (146ms)
-	LoadAllAssembliesAndSetupDomain (297ms)
-		LoadAssemblies (175ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (158ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (292ms)
-			TypeCache.Refresh (290ms)
-				TypeCache.ScanAssembly (265ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (879ms)
+	FinalizeReload (705ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (789ms)
+		SetupLoadedEditorAssemblies (641ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (573ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (464ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (143ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,82 +120,78 @@ Domain Reload Profiling: 1564ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000002CD76786750 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000001E7F8B0E760 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C41EB0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-000001E7F72ADB50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C41EB0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001E7F8B23B70 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757BF020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001E7F73AD010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757BF020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
+Symbol file data-000001E7F8B23B70 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD750F3040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001E7F8B23B70 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C41EB0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001E7F8B23B70 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C41EB0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+Symbol file data-000001E7F828BE40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C41EB0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001E7F828BE40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757D8030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001E7F73AD010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757D8030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001E7F73EE620 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD750F3040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001E7F86E2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD750A0E20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001E7F8B23B70 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD755C1010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001E7F828BE40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C41EB0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
+Symbol file data-000001E7F8796010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757D8030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001E7F8732A00 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD755F8620 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001E7F856BE30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A14420 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001E7F72DE970 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76210E30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
+Symbol file data-000001E7F7404030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD75134650 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
+Symbol file data-000001E7F856BE30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757F3790 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001E7F856BE30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C41EB0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001E7F72DE970 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76210E30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001E7F6D1DC30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74F7AC60 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
+Symbol file data-000001E7F856BE30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD30D5D430 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001E7F72DE970 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76210E30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
+Symbol file data-000001E7F72DE970 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757F3790 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001E7F72DE970 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74F7AC60 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001E7F840A640 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74F7AC60 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001E7F842BA50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757F3790 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001E7F843BC60 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757F3790 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
+Symbol file data-000001E7F7F16420 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD3105DCC0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
+Symbol file data-000001E7F843BC60 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7641D010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001E7F8443C70 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76455A20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001E7F72E8D80 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD310D0270 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001E7F844FA80 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD758039A0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76455A20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.007 seconds
-Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.812 seconds
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -204,1013 +200,231 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.911 seconds
-Domain Reload Profiling: 1919ms
-	BeginReloadAssembly (243ms)
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 1489ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
+		CreateAndSetChildDomain (23ms)
 	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (662ms)
-		LoadAssemblies (446ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (397ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (350ms)
-			TypeCache.Refresh (311ms)
-				TypeCache.ScanAssembly (283ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (912ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (677ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (650ms)
+		SetupLoadedEditorAssemblies (488ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (473ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3302 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (59.3 KB). Loaded Objects now: 3775.
-Memory consumption went from 126.4 MB to 126.3 MB.
-Total: 3.602900 ms (FindLiveObjects: 0.279900 ms CreateObjectMapping: 0.233200 ms MarkObjects: 2.936500 ms  DeleteObjects: 0.151400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 285811.556360 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(bd2af8db914d5324d8bfb0e19a5e9412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(bd2af8db914d5324d8bfb0e19a5e9412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5329fb12c715024b6e852f78cd7fd0bc') in 0.002980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 126.762123 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(d7e7b29156a85594580d000958bb3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(d7e7b29156a85594580d000958bb3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de6e49644e9e54d5bbd4b5b1caedc95') in 0.000550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002CD77459010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7543CC20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77459010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77F46050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77459010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77459010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1380010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7652D010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD30EE7E20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77459010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7747D3A0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77399840 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76171400 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74E18010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74EEDC20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76171400 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74E18010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD767AF010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74E18010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD766F9020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77459010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD767C7820 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD75228040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76917230 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7747D3A0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7747D3A0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD766F9020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD766F9020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD766F9020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.484 seconds
-Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.076 seconds
-Domain Reload Profiling: 1560ms
-	BeginReloadAssembly (180ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (284ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1076ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (484ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (353ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (33.1 KB). Loaded Objects now: 3779.
-Memory consumption went from 124.1 MB to 124.1 MB.
-Total: 3.611700 ms (FindLiveObjects: 0.357300 ms CreateObjectMapping: 0.282400 ms MarkObjects: 2.845100 ms  DeleteObjects: 0.125500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002CD74DE5F50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD781C4030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74DE5F50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA0A6F020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74DE5F50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74DE5F50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757BF020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA22E20F0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD30EE7E20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74DE5F50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD78068010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA07F6020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74D9D010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74EEDC20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74D9D010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1121020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77858010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77F06040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1705A30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74D9D010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1139830 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74EEDC20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77F06040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD78068010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CDC093A040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1139830 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1705A30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1705A30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.463 seconds
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.011 seconds
-Domain Reload Profiling: 1473ms
-	BeginReloadAssembly (171ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (217ms)
-		LoadAssemblies (296ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1011ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (470ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (338ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (33.1 KB). Loaded Objects now: 3783.
-Memory consumption went from 124.4 MB to 124.4 MB.
-Total: 3.826100 ms (FindLiveObjects: 0.340100 ms CreateObjectMapping: 0.277600 ms MarkObjects: 3.151700 ms  DeleteObjects: 0.055000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 195.983102 seconds.
-  path: Assets/Scenes/GameScene1.unity
-  artifactKey: Guid(d7e7b29156a85594580d000958bb3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene1.unity using Guid(d7e7b29156a85594580d000958bb3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66b85d5375bda311980443256557df2') in 0.005282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.073601 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(56a19e171683b0e4283e1e64c86f7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(56a19e171683b0e4283e1e64c86f7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33155f767339db19c8a80f2096d9da07') in 0.000626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002CBA1F4BCA0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A57BF0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A57BF0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD781C4030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1F4BCA0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA0A6F020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1F64CC0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1F64CC0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A57BF0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7630E150 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7630E150 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77BF2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA13E4010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CDC08FA020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A57BF0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA11FB010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77E62020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA222D020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1F05820 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C1D030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD75228040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1F64CC0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1F64CC0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C1D030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA222D020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD3102F040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74C1D030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA176C030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7630E150 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA176C030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA2084E80 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD30790010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA0D15020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CDC0FE5010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1331030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD3102F040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1331030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.500 seconds
-Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.365 seconds
-Domain Reload Profiling: 1865ms
-	BeginReloadAssembly (175ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (245ms)
-		LoadAssemblies (325ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1365ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (443ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (24ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadAttributes (365ms)
 			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.94 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (33.1 KB). Loaded Objects now: 3787.
-Memory consumption went from 124.1 MB to 124.1 MB.
-Total: 2.940000 ms (FindLiveObjects: 0.308400 ms CreateObjectMapping: 0.182700 ms MarkObjects: 2.387600 ms  DeleteObjects: 0.059500 ms)
+Unloading 3302 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (59.0 KB). Loaded Objects now: 3775.
+Memory consumption went from 126.3 MB to 126.3 MB.
+Total: 3.046000 ms (FindLiveObjects: 0.248600 ms CreateObjectMapping: 0.102100 ms MarkObjects: 2.574500 ms  DeleteObjects: 0.119500 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GunScript.cs: 6a8d5652f919b70c5522b0348dc3dc24 -> adaec7589872e88b61019be0f1bdc549
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/BulletScript.cs: 13477a3b0c98cca55096ea1dcfe934dc -> d888d721bde78eacda1c314a50a2cf74
+  custom:scripting/monoscript/fileName/GunInventory.cs: 27a93a5631d692c712d3481cab7dc6ed -> 12a8613a55c0996cf3d6ed76daf1acfa
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MouseLookScript.cs: de9e367c902e6591eea7a538b164a537 -> 8fd193c781d1bf8f46046e05a034775a
+  custom:scripting/monoscript/fileName/DestroyAfterTimeParticle.cs: ded1251bb8cb017092de4cd57332038f -> bb5885afd3cbd5acbc077bc11ec15976
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PlayerMovementScript.cs: 458377dea1f1cd61577717870f04560f -> 02f0eadc488a3cf655217b00cc34fceb
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 630.261775 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierPack/Firing Rifle.fbx
-  artifactKey: Guid(22b99f3efdfa10244a7f11562acf25e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierPack/Firing Rifle.fbx using Guid(22b99f3efdfa10244a7f11562acf25e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c7329002580d019637485cb816ad2e') in 0.194303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 160
-========================================================================
-Received Import Request.
-  Time since last request: 1.727387 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierPack/Textures
-  artifactKey: Guid(a9e674f3609f0334b8552fba6ce13875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierPack/Textures using Guid(a9e674f3609f0334b8552fba6ce13875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45992519b7cec54b9f8d4f59f0bfff7') in 0.000975 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.081629 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierPack/Textures/Soldier_Body_diffuse.png
-  artifactKey: Guid(0bcbae8ecb482ad4ba19f6af0705d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierPack/Textures/Soldier_Body_diffuse.png using Guid(0bcbae8ecb482ad4ba19f6af0705d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc8b5bd4e10459dcc9abe852a003266') in 0.024523 seconds
+  Time since last request: 287983.645442 seconds.
+  path: Assets/PlayerModelsAndAnimations/Easy FPS/Images/bluegrid.png
+  artifactKey: Guid(941baee21d2f342e2bef70ff3d0ea6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Images/bluegrid.png using Guid(941baee21d2f342e2bef70ff3d0ea6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e686777e619ec610a4f1d2d7d8357e8f') in 0.068909 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierPack/Textures/Soldier_head_specular.png
-  artifactKey: Guid(e878a42b6218f0048859846e88f009b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierPack/Textures/Soldier_head_specular.png using Guid(e878a42b6218f0048859846e88f009b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d883467a008e0e2766dafd87c4c456') in 0.025303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierPack/Textures/Soldier_head_normal.png
-  artifactKey: Guid(f018636cecdd66943b3e8e0569ce6725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierPack/Textures/Soldier_head_normal.png using Guid(f018636cecdd66943b3e8e0569ce6725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1462157f9dd08b3c3d8f9fc42ffdc63d') in 0.034220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002CD76A57BF0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD781C4030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA213D8F0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA17CBED0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A82050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A82050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77475770 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7630E150 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7630E150 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD75089010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1EC70B0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77CC4060 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A57BF0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD78043020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76938030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1DDB010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA176C030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74D4F520 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD75228040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A82050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A82050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74D4F520 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1C98380 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A57BF0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1A79030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD775EBA60 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7630E150 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD775EBA60 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA2084E80 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD30F3B020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76938030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7668B050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7675F030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76A57BF0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD7675F030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.496 seconds
-Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.924 seconds
-Domain Reload Profiling: 1420ms
-	BeginReloadAssembly (176ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (241ms)
-		LoadAssemblies (311ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (32ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (925ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (347ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (36.2 KB). Loaded Objects now: 3832.
-Memory consumption went from 126.1 MB to 126.1 MB.
-Total: 3.049700 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.111000 ms MarkObjects: 2.581800 ms  DeleteObjects: 0.067500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 398.064625 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel
-  artifactKey: Guid(cba34d377cb1d15478aaeb4bd962c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel using Guid(cba34d377cb1d15478aaeb4bd962c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c782f918f09d1f114660372e120a065') in 0.005994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.091044 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/crouching turn 90 left.fbx
-  artifactKey: Guid(7ff558bc7ee652740bd686cd7e51014b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/crouching turn 90 left.fbx using Guid(7ff558bc7ee652740bd686cd7e51014b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd80016d1a6f20b5d55c18bf9ffbcaa') in 0.039631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/sprint backward.fbx
-  artifactKey: Guid(2f17f5b7603aeba409164033cf3ba480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/sprint backward.fbx using Guid(2f17f5b7603aeba409164033cf3ba480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b63e822d19dc3b1ea9ad66c535e722f') in 0.004816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching right.fbx
-  artifactKey: Guid(4ca399b397c31ed49a1dcdd934be01c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching right.fbx using Guid(4ca399b397c31ed49a1dcdd934be01c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d5ca473c37d6939d7c92e43f7bc7c4') in 0.007126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward right.fbx
-  artifactKey: Guid(4a6e8c1f86264414d942de377831a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward right.fbx using Guid(4a6e8c1f86264414d942de377831a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c961840712ba19e5034cddeb11c08b') in 0.004990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/death from front headshot.fbx
-  artifactKey: Guid(ced132077d32a064e82099e92deee3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/death from front headshot.fbx using Guid(ced132077d32a064e82099e92deee3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2076e68a13de4bcbce970a13532c1c36') in 0.006671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward.fbx
-  artifactKey: Guid(838b14b06e7d55140a78050d456f62c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward.fbx using Guid(838b14b06e7d55140a78050d456f62c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db0f4c26ca311aa6595939798aaa3d1') in 0.006396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run right.fbx
-  artifactKey: Guid(9f08f31ee15abcf4ba104497459dcaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run right.fbx using Guid(9f08f31ee15abcf4ba104497459dcaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf7742fbc4fdb19a3506ce13c52d652') in 0.006718 seconds
+  path: Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/FPS_Character.fbx
+  artifactKey: Guid(6cae2f82a0a62ff4ab9be3eeeda19688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/FPS_Character.fbx using Guid(6cae2f82a0a62ff4ab9be3eeeda19688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12973c9c5df95fb79e1137d82aa481c2') in 0.238480 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
+Number of asset objects unloaded after import = 194
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run forward.fbx
-  artifactKey: Guid(ae42690baf4f9f5478915d873190f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run forward.fbx using Guid(ae42690baf4f9f5478915d873190f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd517b4bc4c280b273b865ac3f2e5b0') in 0.004897 seconds
+  Time since last request: 144.534045 seconds.
+  path: Assets/PlayerModelsAndAnimations/FPS_Character.prefab
+  artifactKey: Guid(71eaa04145f267f44b2ab90724e551a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/FPS_Character.prefab using Guid(71eaa04145f267f44b2ab90724e551a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc840b3582a32c0bd45411e5fe943ace') in 0.036629 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
+Number of asset objects unloaded after import = 169
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/death from the back.fbx
-  artifactKey: Guid(8d1466470beb3f94ca7139da70643dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/death from the back.fbx using Guid(8d1466470beb3f94ca7139da70643dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80386cd1544b0a15e56763ce94f4a102') in 0.006056 seconds
+  Time since last request: 2.488094 seconds.
+  path: Assets/PlayerModelsAndAnimations/FPS_Character.prefab
+  artifactKey: Guid(71eaa04145f267f44b2ab90724e551a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/FPS_Character.prefab using Guid(71eaa04145f267f44b2ab90724e551a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897dcf98584d9553fa62d7ac3b4a9a26') in 0.029128 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
+Number of asset objects unloaded after import = 169
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run backward.fbx
-  artifactKey: Guid(defcef49fc06ab74e9e0c569a85cbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run backward.fbx using Guid(defcef49fc06ab74e9e0c569a85cbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0bf0880475b06f282aaea4865b59db') in 0.005469 seconds
+  Time since last request: 94.255624 seconds.
+  path: Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/FPS_Character.fbx
+  artifactKey: Guid(6cae2f82a0a62ff4ab9be3eeeda19688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/FPS_Character.fbx using Guid(6cae2f82a0a62ff4ab9be3eeeda19688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb732a96c5d0dd12174cd93709110e5e') in 0.156808 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/sprint right.fbx
-  artifactKey: Guid(4d0d20114829b9a42a6a8d41e59eee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/sprint right.fbx using Guid(4d0d20114829b9a42a6a8d41e59eee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596d1060fe105682d0684f18294ccfed') in 0.007451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/jump up.fbx
-  artifactKey: Guid(3ca545ec6a10c3f49accfa79a233d194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/jump up.fbx using Guid(3ca545ec6a10c3f49accfa79a233d194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6aa62194b49267087056969d74643b4') in 0.004624 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run backward left.fbx
-  artifactKey: Guid(14145bac5c2bbb047bfe3ed69a7e7b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run backward left.fbx using Guid(14145bac5c2bbb047bfe3ed69a7e7b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ad1d10204539c7b4cf3f339a87e685') in 0.006373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward.fbx
-  artifactKey: Guid(c5431841c2149f54ebfbf1cd2524765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward.fbx using Guid(c5431841c2149f54ebfbf1cd2524765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f916bac787760b3532c875e90a8f43') in 0.007366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/idle crouching.fbx
-  artifactKey: Guid(8d9e390b30000844da8aba02aa314948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/idle crouching.fbx using Guid(8d9e390b30000844da8aba02aa314948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6559e46a6939307e0336fd04ec5475') in 0.004120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward right.fbx
-  artifactKey: Guid(8cf1500ba8fcabc479e8cdf353685991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward right.fbx using Guid(8cf1500ba8fcabc479e8cdf353685991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae9324ecc2f08c537ac88e4ed4024db') in 0.004990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward left.fbx
-  artifactKey: Guid(a9114c9d742effa439817e92cb90be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward left.fbx using Guid(a9114c9d742effa439817e92cb90be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d21cf92d12e437c0c6f113fb0122bd3') in 0.004625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run backward right.fbx
-  artifactKey: Guid(8847bb8a970dc2e4fa16cbed7b7686ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run backward right.fbx using Guid(8847bb8a970dc2e4fa16cbed7b7686ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42aef064f2778ea22d5456b14f45abc') in 0.006860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/death from back headshot.fbx
-  artifactKey: Guid(3a63c2ec49568894cb5d21b1400f8802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/death from back headshot.fbx using Guid(3a63c2ec49568894cb5d21b1400f8802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9890eb04f573e0744c049bafd6d877e8') in 0.004723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/death from right.fbx
-  artifactKey: Guid(4c5593be49cf28d41b455c3fd3796f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/death from right.fbx using Guid(4c5593be49cf28d41b455c3fd3796f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20da0dc32617e84c455d249af0dd823b') in 0.006525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run left.fbx
-  artifactKey: Guid(905c273f3550dad4dba76e3491bc4c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run left.fbx using Guid(905c273f3550dad4dba76e3491bc4c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45bd67f29879c51da563eb5cb3e8124') in 0.008178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward left.fbx
-  artifactKey: Guid(e2e9d30f636f99f49927ad1322af87c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward left.fbx using Guid(e2e9d30f636f99f49927ad1322af87c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b11f2c1955ac3eb2dce4fce2a5a9dda') in 0.008221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/sprint forward.fbx
-  artifactKey: Guid(d312d762ce3fc9b4ea69f7bebaa6bf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/sprint forward.fbx using Guid(d312d762ce3fc9b4ea69f7bebaa6bf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f79d531ac45e264b74142da1c28da7b') in 0.006945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx
-  artifactKey: Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx using Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f7d657018a84a03474aa42430c3118') in 0.135804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 156
+Number of asset objects unloaded after import = 194
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/sprint forward left.fbx
-  artifactKey: Guid(7d2b87782d4268046932980235640999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/sprint forward left.fbx using Guid(7d2b87782d4268046932980235640999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb631c67a3bcd5c5355de02f6cd37cf4') in 0.006607 seconds
+  path: Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/Textures/Sword_Normal.tif
+  artifactKey: Guid(28db9c905bafa5446bcc4bfd40bb1be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/Textures/Sword_Normal.tif using Guid(28db9c905bafa5446bcc4bfd40bb1be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c18920210d9bc2c4b6728f9b4090290') in 0.023939 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.585485 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk forward.fbx
-  artifactKey: Guid(e48b1f594b3eef241bc133df05b52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk forward.fbx using Guid(e48b1f594b3eef241bc133df05b52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9920514eb58452919fb20969e4b2aea') in 0.004542 seconds
+  Time since last request: 42.974404 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(c7ce63215f7c0fa45b155d778d19142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(c7ce63215f7c0fa45b155d778d19142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75fbb66d6e908b1a9d701d81c01c29e') in 0.000646 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk left.fbx
-  artifactKey: Guid(504534fcc0f6f8e439c84a2bffc491cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk left.fbx using Guid(504534fcc0f6f8e439c84a2bffc491cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fc007cab9a9e3153eaa997491794e7') in 0.004516 seconds
+  Time since last request: 14.557024 seconds.
+  path: Assets/Resources/Swat.prefab
+  artifactKey: Guid(e7a3d9ed6f346314e919c75ebf583789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Swat.prefab using Guid(e7a3d9ed6f346314e919c75ebf583789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453bda5136cc521512ef494b78959a37') in 0.025643 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
+Number of asset objects unloaded after import = 309
 ========================================================================
 Received Import Request.
-  Time since last request: 53.447934 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx
-  artifactKey: Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx using Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c9a9547d7dcc2323c94b7d28240475') in 0.087371 seconds
+  Time since last request: 86.741755 seconds.
+  path: Assets/Resources/Swat.prefab
+  artifactKey: Guid(e7a3d9ed6f346314e919c75ebf583789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Swat.prefab using Guid(e7a3d9ed6f346314e919c75ebf583789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8642d045a927d8fde73dd597c9aeb1') in 0.044889 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 160
+Number of asset objects unloaded after import = 310
 ========================================================================
 Received Import Request.
-  Time since last request: 3.015158 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx
-  artifactKey: Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx using Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1363bbad2844ca12038bdbae34668ad7') in 0.086390 seconds
+  Time since last request: 55.018499 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(204b5bc65f8d3364fa57aadf93974621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(204b5bc65f8d3364fa57aadf93974621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1eb50b4246a2a088b448f26ec4a8f0') in 0.000751 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 160
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.443763 seconds.
+  path: Assets/Scripts/MobileFPSGameManager.cs
+  artifactKey: Guid(44a4ccaa067be5c428c5443ae248d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MobileFPSGameManager.cs using Guid(44a4ccaa067be5c428c5443ae248d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed98a1eadd847f123ce56a8163698e56') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000002CD774B63D0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001E7F6B10F30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA21CB7E0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001E6236D2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD74D4F520 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
+Symbol file data-000001E623AB9010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CDC0824030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001E7F8ADA010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA241E030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001E7F6B10F30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA241E030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+Symbol file data-000001E7F6B10F30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD774B63D0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001E7F6B10F30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD310D2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001E7F7E680F0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD310D2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001E7F72DDB60 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA242D8B0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001E7B2A60020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1EC70B0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001E6236D2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD77F36030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001E7F8021010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD774B63D0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
+Symbol file data-000001E7F6B10F30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD310D2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001E623344040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA0D15020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001E623764030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA08D0020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001E7F8BAA010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1F05820 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
+Symbol file data-000001E7F856BE30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD75154E80 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
+Symbol file data-000001E7F6F74030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD75228040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001E7F71AAA50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA241E030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001E7F856BE30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA241E030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001E7F856BE30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD75154E80 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
+Symbol file data-000001E7F6F74030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD757BF020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001E623680060 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA241E030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
+Symbol file data-000001E7F856BE30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD75154E80 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001E7F6F74030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1DC1120 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001E623AB9010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD310D2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001E7F7E680F0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1DC1120 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001E623AB9010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1152010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
+Symbol file data-000001E622D75030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD310D2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
+Symbol file data-000001E623AB9010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD76938030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001E623048030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA1F54500 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001E6233F5020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD762DA470 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001E623AB9010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CBA241E030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
+Symbol file data-000001E623AB9010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002CD762DA470 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001E623AB9010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.606 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.335 seconds
+Refreshing native plugins compatible for Editor in 6.83 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -1218,83 +432,529 @@ Native extension for Android target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.925 seconds
-Domain Reload Profiling: 1532ms
-	BeginReloadAssembly (220ms)
+- Finished resetting the current domain, in  2.163 seconds
+Domain Reload Profiling: 3498ms
+	BeginReloadAssembly (390ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (856ms)
+		LoadAssemblies (766ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (73ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (67ms)
+			ResolveRequiredComponents (53ms)
+	FinalizeReload (2164ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (33.1 KB). Loaded Objects now: 3795.
+Memory consumption went from 126.2 MB to 126.1 MB.
+Total: 3.820800 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.100500 ms MarkObjects: 3.386800 ms  DeleteObjects: 0.062500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GunScript.cs: 6a8d5652f919b70c5522b0348dc3dc24 -> adaec7589872e88b61019be0f1bdc549
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/BulletScript.cs: 13477a3b0c98cca55096ea1dcfe934dc -> d888d721bde78eacda1c314a50a2cf74
+  custom:scripting/monoscript/fileName/GunInventory.cs: 27a93a5631d692c712d3481cab7dc6ed -> 12a8613a55c0996cf3d6ed76daf1acfa
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MouseLookScript.cs: de9e367c902e6591eea7a538b164a537 -> 8fd193c781d1bf8f46046e05a034775a
+  custom:scripting/monoscript/fileName/DestroyAfterTimeParticle.cs: ded1251bb8cb017092de4cd57332038f -> bb5885afd3cbd5acbc077bc11ec15976
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PlayerMovementScript.cs: 458377dea1f1cd61577717870f04560f -> 02f0eadc488a3cf655217b00cc34fceb
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13.961188 seconds.
+  path: Assets/Scripts/MobileFPSGameManager.cs
+  artifactKey: Guid(44a4ccaa067be5c428c5443ae248d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MobileFPSGameManager.cs using Guid(44a4ccaa067be5c428c5443ae248d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbb15d3d6586897e6b3368349628660') in 0.004127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E6243C4200 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F9E78020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F8143060 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F9B50020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6243C4200 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6243C4200 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623F31F40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6235B0040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6235B0040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8627BB020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623F6AC10 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6AA4C90 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6243C4200 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623EED8A0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F89EE020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F8BAA010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6245BD050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F92A2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6241A9580 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7B2F8BEE0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7B2F8BEE0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F92A2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E624757C70 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7B2F8BEE0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E624460960 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6993560 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6235B0040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F92C0E00 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E622E51040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6B0C290 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F89EE020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6F6E010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F856BE30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7B2F8BEE0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6993560 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.468 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 1336ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (43ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (286ms)
-		LoadAssemblies (376ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (278ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (2ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
 			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (926ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (868ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
+		SetupLoadedEditorAssemblies (409ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (33.1 KB). Loaded Objects now: 3842.
-Memory consumption went from 126.9 MB to 126.9 MB.
-Total: 2.646600 ms (FindLiveObjects: 0.243100 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.224300 ms  DeleteObjects: 0.075000 ms)
+Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (33.1 KB). Loaded Objects now: 3799.
+Memory consumption went from 126.2 MB to 126.1 MB.
+Total: 4.445400 ms (FindLiveObjects: 0.366100 ms CreateObjectMapping: 0.207400 ms MarkObjects: 3.794600 ms  DeleteObjects: 0.075900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GunScript.cs: 6a8d5652f919b70c5522b0348dc3dc24 -> adaec7589872e88b61019be0f1bdc549
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/BulletScript.cs: 13477a3b0c98cca55096ea1dcfe934dc -> d888d721bde78eacda1c314a50a2cf74
+  custom:scripting/monoscript/fileName/GunInventory.cs: 27a93a5631d692c712d3481cab7dc6ed -> 12a8613a55c0996cf3d6ed76daf1acfa
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MouseLookScript.cs: de9e367c902e6591eea7a538b164a537 -> 8fd193c781d1bf8f46046e05a034775a
+  custom:scripting/monoscript/fileName/DestroyAfterTimeParticle.cs: ded1251bb8cb017092de4cd57332038f -> bb5885afd3cbd5acbc077bc11ec15976
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PlayerMovementScript.cs: 458377dea1f1cd61577717870f04560f -> 02f0eadc488a3cf655217b00cc34fceb
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 221.385638 seconds.
-  path: Assets/Easy FPS/Prefabs
-  artifactKey: Guid(4883685d74f084286a09417f818f93f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy FPS/Prefabs using Guid(4883685d74f084286a09417f818f93f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135a7a40b656fdc0ab320f11dcb0b85c') in 0.004152 seconds
+  Time since last request: 24.361981 seconds.
+  path: Assets/Scripts/MobileFPSGameManager.cs
+  artifactKey: Guid(44a4ccaa067be5c428c5443ae248d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MobileFPSGameManager.cs using Guid(44a4ccaa067be5c428c5443ae248d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3d72a7687f7fb6ba546ba4b3949ccf') in 0.002440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E7F6A6F360 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F8A31020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6FCE020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F9B50020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6A6F360 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6245BD050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6245BD050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6235B0040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6235B0040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E622FA2020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623F6AC10 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E862B87060 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6245BD050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623EED8A0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F7519020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6967D30 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6245BD050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623704030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623544010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6245BD050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F71D9010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623704030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6230F2040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6A98010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E62435AD10 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F92C0E00 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6235B0040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F92C0E00 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E622D75030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E624693600 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F7519020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6F6E010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F92C0E00 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F92C0E00 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F92C0E00 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.930 seconds
+Domain Reload Profiling: 1364ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (930ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (414ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (33.1 KB). Loaded Objects now: 3803.
+Memory consumption went from 126.2 MB to 126.1 MB.
+Total: 3.282300 ms (FindLiveObjects: 0.386900 ms CreateObjectMapping: 0.257100 ms MarkObjects: 2.563800 ms  DeleteObjects: 0.072900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GunScript.cs: 6a8d5652f919b70c5522b0348dc3dc24 -> adaec7589872e88b61019be0f1bdc549
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/BulletScript.cs: 13477a3b0c98cca55096ea1dcfe934dc -> d888d721bde78eacda1c314a50a2cf74
+  custom:scripting/monoscript/fileName/GunInventory.cs: 27a93a5631d692c712d3481cab7dc6ed -> 12a8613a55c0996cf3d6ed76daf1acfa
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MouseLookScript.cs: de9e367c902e6591eea7a538b164a537 -> 8fd193c781d1bf8f46046e05a034775a
+  custom:scripting/monoscript/fileName/DestroyAfterTimeParticle.cs: ded1251bb8cb017092de4cd57332038f -> bb5885afd3cbd5acbc077bc11ec15976
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PlayerMovementScript.cs: 458377dea1f1cd61577717870f04560f -> 02f0eadc488a3cf655217b00cc34fceb
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.358909 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(d7e7b29156a85594580d000958bb3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(d7e7b29156a85594580d000958bb3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aff720337a1bdb45b2d43821d1f541f') in 0.002584 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.061068 seconds.
-  path: Assets/Easy FPS/Prefabs/bloodEffectParticlePrefab_melee.prefab
-  artifactKey: Guid(ffbf169ab9dcfdc45ae14010bc82a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy FPS/Prefabs/bloodEffectParticlePrefab_melee.prefab using Guid(ffbf169ab9dcfdc45ae14010bc82a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df62b6ca855f417ba723e6cb79b8169f') in 0.100428 seconds
+  Time since last request: 2.126302 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(d7e7b29156a85594580d000958bb3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(d7e7b29156a85594580d000958bb3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16224dc435cc9d288435f302baf13ea3') in 0.000555 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Easy FPS/Prefabs/bulletHole.prefab
-  artifactKey: Guid(b2ac1383a96f94a50b7ed458be173bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy FPS/Prefabs/bulletHole.prefab using Guid(b2ac1383a96f94a50b7ed458be173bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfaffa75674abe8fd39b8b8187338fb') in 0.019470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E623B92010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F8A31020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623F20D00 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F9B50020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623B92010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623B92010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623F31F40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F7E680F0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F7E680F0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E862C21060 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623F6AC10 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F714A010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623B92010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F8073030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F883E020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F85ED020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6802010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623048030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F94A4890 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623B92010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623B92010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623048030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E624757C70 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623B92010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623048030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6245BD050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F7E680F0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F938A3F0 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6233D1020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623344040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F883E020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7F6E5E010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6245BD050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E623B92010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E6245BD050 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.456 seconds
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1376ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (33.2 KB). Loaded Objects now: 3807.
+Memory consumption went from 126.2 MB to 126.1 MB.
+Total: 3.663700 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.288400 ms MarkObjects: 2.940600 ms  DeleteObjects: 0.091700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GunScript.cs: 6a8d5652f919b70c5522b0348dc3dc24 -> adaec7589872e88b61019be0f1bdc549
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/BulletScript.cs: 13477a3b0c98cca55096ea1dcfe934dc -> d888d721bde78eacda1c314a50a2cf74
+  custom:scripting/monoscript/fileName/GunInventory.cs: 27a93a5631d692c712d3481cab7dc6ed -> 12a8613a55c0996cf3d6ed76daf1acfa
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MouseLookScript.cs: de9e367c902e6591eea7a538b164a537 -> 8fd193c781d1bf8f46046e05a034775a
+  custom:scripting/monoscript/fileName/DestroyAfterTimeParticle.cs: ded1251bb8cb017092de4cd57332038f -> bb5885afd3cbd5acbc077bc11ec15976
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PlayerMovementScript.cs: 458377dea1f1cd61577717870f04560f -> 02f0eadc488a3cf655217b00cc34fceb
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

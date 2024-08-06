@@ -392,6 +392,7 @@
 "Assets/Prefabs/RohithPrefab/WallDuplicator.cs"
 "Assets/Scripts/MobileFPSGameManager.cs"
 "Assets/Scripts/NetworkManager.cs"
+"Assets/Scripts/PlayerSetup.cs"
 -langversion:9.0
 
 /deterministic
