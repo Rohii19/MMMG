@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16075 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16192 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\maya\2022.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/Github/MMMG/MMMG/MMMG
+C:/Users/gohke/OneDrive/Desktop/MMMG/MMMG/MMMG
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56150
-Successfully changed project path to: D:/Github/MMMG/MMMG/MMMG
-D:/Github/MMMG/MMMG/MMMG
+64752
+Successfully changed project path to: C:/Users/gohke/OneDrive/Desktop/MMMG/MMMG/MMMG
+C:/Users/gohke/OneDrive/Desktop/MMMG/MMMG/MMMG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,70 +49,67 @@ D:/Github/MMMG/MMMG/MMMG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35076] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2322584187 [EditorId] 2322584187 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23464] Host "[IP] 192.168.100.13 [Port] 0 [Flags] 2 [Guid] 2478227506 [EditorId] 2478227506 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GG3N6VJP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [35076] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2322584187 [EditorId] 2322584187 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23464] Host "[IP] 192.168.100.13 [Port] 0 [Flags] 2 [Guid] 2478227506 [EditorId] 2478227506 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GG3N6VJP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 9.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
-[Subsystems] Discovering subsystems at path D:/maya/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Github/MMMG/MMMG/MMMG/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gohke/OneDrive/Desktop/MMMG/MMMG/MMMG/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
     Vendor:   NVIDIA
-    VRAM:     3964 MB
-    Driver:   31.0.15.5161
+    VRAM:     3950 MB
+    Driver:   31.0.15.4633
 Initialize mono
-Mono path[0] = 'D:/maya/2022.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'D:/maya/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/maya/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/maya/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/maya/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/maya/2022.3.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005549 seconds.
-- Loaded All Assemblies, in  0.487 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.050252 seconds.
+- Loaded All Assemblies, in  0.971 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 350 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.740 seconds
-Domain Reload Profiling: 1228ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  0.829 seconds
+Domain Reload Profiling: 1792ms
+	BeginReloadAssembly (279ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (227ms)
-		LoadAssemblies (132ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (213ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (275ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (218ms)
-				TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (345ms)
+				TypeCache.ScanAssembly (316ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (741ms)
+	FinalizeReload (831ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (657ms)
+		SetupLoadedEditorAssemblies (664ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (474ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (119ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,185 +117,560 @@ Domain Reload Profiling: 1228ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C7FC8D5E50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FBE72020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FBE87430 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDB53010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC8D5E50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC8D5E50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC8D5E50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDA38E40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDA38E40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDB53010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC37ED90 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC37ED90 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC8D5E50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDBAA030 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FD6D2010 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FD724E20 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC8D5E50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDA38E40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDA38E40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC8D5E50 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDD5D040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDA38E40 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC196020 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FDD5D040 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FD743430 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FD743430 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FBEB8250 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FBEC2660 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC1F9450 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FBEC2660 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FBB51490 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC209660 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC209660 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC209660 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FC215470 doesn't match image D:\Github\MMMG\MMMG\MMMG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.865 seconds
-Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.423 seconds
+Refreshing native plugins compatible for Editor in 16.13 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.772 seconds
-Domain Reload Profiling: 1637ms
-	BeginReloadAssembly (258ms)
+- Finished resetting the current domain, in  0.980 seconds
+Domain Reload Profiling: 2392ms
+	BeginReloadAssembly (356ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (478ms)
-		LoadAssemblies (404ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (847ms)
+		LoadAssemblies (772ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (245ms)
-			TypeCache.Refresh (213ms)
-				TypeCache.ScanAssembly (192ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (772ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (980ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (537ms)
+		SetupLoadedEditorAssemblies (642ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (407ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (32ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.63 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (37ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 19.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3304 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (59.2 KB). Loaded Objects now: 3777.
-Memory consumption went from 126.4 MB to 126.3 MB.
-Total: 3.150100 ms (FindLiveObjects: 0.326100 ms CreateObjectMapping: 0.200400 ms MarkObjects: 2.482600 ms  DeleteObjects: 0.139600 ms)
+Unloading 3425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (403.1 KB). Loaded Objects now: 3896.
+Memory consumption went from 129.8 MB to 129.4 MB.
+Total: 10.910300 ms (FindLiveObjects: 0.651100 ms CreateObjectMapping: 0.729300 ms MarkObjects: 8.745600 ms  DeleteObjects: 0.781300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 298766.383852 seconds.
-  path: Assets/Resources/PlayerPrefab.prefab
-  artifactKey: Guid(e119745fce2736f489bb66ca18cd50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PlayerPrefab.prefab using Guid(e119745fce2736f489bb66ca18cd50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23297de15158ae9f962a6f630b1fffb9') in 0.155559 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 479
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3786.
-Memory consumption went from 74.9 MB to 74.9 MB.
-Total: 3.465000 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.110000 ms MarkObjects: 3.071500 ms  DeleteObjects: 0.022500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.489659 seconds.
-  path: Assets/Prefabs/RohithPrefab/Sidewall/props_DefaultMaterial_MaskMap.1001.png
-  artifactKey: Guid(b438f1cba3ecdff45b8607e8197c6e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RohithPrefab/Sidewall/props_DefaultMaterial_MaskMap.1001.png using Guid(b438f1cba3ecdff45b8607e8197c6e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af13a1a34f80bcb74713ef19cec4938') in 0.042016 seconds
+  Time since last request: 139760.388495 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(52e8a2d67dbbcda489ec480594e3ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(52e8a2d67dbbcda489ec480594e3ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d8c474270780fb1e04331305cc2b2b') in 0.007127 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences
+  artifactKey: Guid(7023b9abea554d24f8838b3e467e6a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences using Guid(7023b9abea554d24f8838b3e467e6a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19a786a19b0725aab816942f8ff4296') in 0.002172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Resources/Swat.prefab
+  artifactKey: Guid(e7a3d9ed6f346314e919c75ebf583789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Swat.prefab using Guid(e7a3d9ed6f346314e919c75ebf583789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee30879e0834b4d26b3d7f0050d06fb3') in 0.280519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 310
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_L2.prefab
+  artifactKey: Guid(21cd13e1bef6c4d49b6a39c0979ddb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_L2.prefab using Guid(21cd13e1bef6c4d49b6a39c0979ddb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb39b84a961bc88342e10be1f060902') in 0.031244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences
+  artifactKey: Guid(09966d176a3d13546835caa48167fd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences using Guid(09966d176a3d13546835caa48167fd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be467d167fe871aa05724d6f5c60624') in 0.002235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_wall_set_v1.prefab
+  artifactKey: Guid(f5c94d7d7f024eb43b7dd5258c0608d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_wall_set_v1.prefab using Guid(f5c94d7d7f024eb43b7dd5258c0608d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0103e704f4890ebeaf34179e6e1a92b') in 0.019139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/PlayerPrefab.prefab
+  artifactKey: Guid(e119745fce2736f489bb66ca18cd50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PlayerPrefab.prefab using Guid(e119745fce2736f489bb66ca18cd50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c80a189ba05e3cd9c9917a92a95528') in 0.095082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 486
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/RoomListPrefab.prefab
+  artifactKey: Guid(1b50ba566761f6c42bf8b3c775911a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RoomListPrefab.prefab using Guid(1b50ba566761f6c42bf8b3c775911a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73e7383df7ff1d68c59a35874c6a549') in 0.023237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_s1.prefab
+  artifactKey: Guid(8270a6a93cde92045a7d335d31b2ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_s1.prefab using Guid(8270a6a93cde92045a7d335d31b2ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aeec10777e4cc07e44f23eb0750d03f') in 0.023956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_c4.prefab
+  artifactKey: Guid(274192df2eb22c141b0d33bd4bc4a00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_c4.prefab using Guid(274192df2eb22c141b0d33bd4bc4a00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7fe58ae8bb03e8f97f961029e876fc') in 0.023166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1
+  artifactKey: Guid(dc84a93d241dd26429410761c9fa74e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1 using Guid(dc84a93d241dd26429410761c9fa74e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b425e0e6aab5f2f4c4d23c859cf09107') in 0.002038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_c1.prefab
+  artifactKey: Guid(d451d48adcbc4e14d817d2f55e6fe807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_c1.prefab using Guid(d451d48adcbc4e14d817d2f55e6fe807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d5c375bfdf2c6b4dbcd33a2876cca2') in 0.019963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_c3.prefab
+  artifactKey: Guid(594ca775bab9221489ec47078448f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_c3.prefab using Guid(594ca775bab9221489ec47078448f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a811c1915089e231c855b228b2b542ef') in 0.022745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_L1.prefab
+  artifactKey: Guid(2f4317dc5431d094c984807bc210c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_L1.prefab using Guid(2f4317dc5431d094c984807bc210c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6080c11a6c739f66ade6fe7bbf82a7f') in 0.022287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_s2.prefab
+  artifactKey: Guid(81244cd240bc54b41aa108bba94a5623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_s2.prefab using Guid(81244cd240bc54b41aa108bba94a5623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664c413dbe361d5a6e7e5f5f781bc7f9') in 0.022370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/PlayerListPrefab.prefab
+  artifactKey: Guid(5dc44bfa7a0d258489acbcd2b912d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerListPrefab.prefab using Guid(5dc44bfa7a0d258489acbcd2b912d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c48e9b24e5331a7e15627794676d995') in 0.013629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_column.prefab
+  artifactKey: Guid(28b2b68147fce3c4187add1104d6ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_column.prefab using Guid(28b2b68147fce3c4187add1104d6ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c87299dae71007e66563a811419545b') in 0.036059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_wall_set_v2.prefab
+  artifactKey: Guid(36b4cee33c5a95b4fa7f0ae6bdb49564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_wall_set_v2.prefab using Guid(36b4cee33c5a95b4fa7f0ae6bdb49564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39abc4a8cf789d4b3701a8ce0a463e86') in 0.022830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_c2.prefab
+  artifactKey: Guid(f13df3da23764d54493c4cd7f9a0d3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v1/Concrete_fence_v1_c2.prefab using Guid(f13df3da23764d54493c4cd7f9a0d3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e949b1d6b94bf6f0d897541735b47957') in 0.025298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.047220 seconds.
+  path: Assets/Prefabs/RohithPrefab
+  artifactKey: Guid(855fd6741c56062499362af0266dc4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab using Guid(855fd6741c56062499362af0266dc4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a7121051a6aabbb34cd997e6b05618') in 0.001048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.114203 seconds.
+  path: Assets/Prefabs/RohithPrefab/all.fbx
+  artifactKey: Guid(1ca3a25b7a56d0e42a3feab13a20a3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/all.fbx using Guid(1ca3a25b7a56d0e42a3feab13a20a3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b09cba4f0f18045e5d715d668c2f2ae') in 1.302748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 328
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/RohithPrefab/New Material 1.mat
+  artifactKey: Guid(9cf12d83d343cc34d94e6c45958aa7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/New Material 1.mat using Guid(9cf12d83d343cc34d94e6c45958aa7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8c502fe589f3aac3b359ea9f2a6f00') in 0.021302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/RohithPrefab/Rail.mat
+  artifactKey: Guid(2e51be07c08ea8c4ea7236e7140ecb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/Rail.mat using Guid(2e51be07c08ea8c4ea7236e7140ecb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2645f4e79ba40561b1381faed714f1') in 0.016455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/RohithPrefab/New Material.mat
+  artifactKey: Guid(aaa1b0331e6d56547b975c4bdc43c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/New Material.mat using Guid(aaa1b0331e6d56547b975c4bdc43c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703a9bd2d2679660cf478e8aa386f52e') in 0.019604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Prefabs/RohithPrefab/Glass.mat
+  artifactKey: Guid(b4745ed4b1ea7614091e648c0b2500c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/Glass.mat using Guid(b4745ed4b1ea7614091e648c0b2500c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93d3bc542dcffaa1a0575fe900c3a60') in 0.024109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefabs/RohithPrefab/New Material 3.mat
+  artifactKey: Guid(9fecb4ab304ef3d4fb1b2570db23b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/New Material 3.mat using Guid(9fecb4ab304ef3d4fb1b2570db23b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be7d76129d5bb2beba68a5e1bce2a2c') in 0.016272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Prefabs/RohithPrefab/New Material 2.mat
+  artifactKey: Guid(b53af4bd5d4477a4791a999c93a5081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/New Material 2.mat using Guid(b53af4bd5d4477a4791a999c93a5081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f088b891e29162f7196ee09c508b05') in 0.017419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/RohithPrefab/Walls.fbx
+  artifactKey: Guid(297e5aa14c4eb1b49b597e8939efcbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/Walls.fbx using Guid(297e5aa14c4eb1b49b597e8939efcbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb69a083e5c42f9f8030b2d18c42268c') in 0.088827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Prefabs/RohithPrefab/gold.mat
+  artifactKey: Guid(c9b983b592b10b94bb1d870ed14bccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/gold.mat using Guid(c9b983b592b10b94bb1d870ed14bccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8243fec14751717103827c2ccad998d8') in 0.021799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Prefabs/RohithPrefab/New Material 4.mat
+  artifactKey: Guid(ddcb63c4da5f5bd4ab70ccc66d8d029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RohithPrefab/New Material 4.mat using Guid(ddcb63c4da5f5bd4ab70ccc66d8d029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59de566e34226cb664dc651f38e6eae') in 0.016222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 77.507323 seconds.
+  path: Assets/PlayerModelsAndAnimations/Easy FPS/Prefabs/Bullet.prefab
+  artifactKey: Guid(c9e619a669d974fd28b5c89e43f2bce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Prefabs/Bullet.prefab using Guid(c9e619a669d974fd28b5c89e43f2bce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dccd2676f5c6377759eaf94fe039094') in 0.046713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PlayerModelsAndAnimations/Easy FPS/Prefabs/Player.prefab
+  artifactKey: Guid(c391f12a928274acab8576bb6030641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Prefabs/Player.prefab using Guid(c391f12a928274acab8576bb6030641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe80606ccb65f99d570d83705f95872') in 0.071130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/PlayerModelsAndAnimations/Easy FPS/Prefabs/bulletHole.prefab
+  artifactKey: Guid(b2ac1383a96f94a50b7ed458be173bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Prefabs/bulletHole.prefab using Guid(b2ac1383a96f94a50b7ed458be173bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db8bde6a9e82624e3a2eea2f99fa759') in 0.031541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 20.180260 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/crouching turn 90 right.fbx
+  artifactKey: Guid(c9bb2a7cd0ad7e24cb3367555e97ace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/crouching turn 90 right.fbx using Guid(c9bb2a7cd0ad7e24cb3367555e97ace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f22b2503360458dedf868e485035ef') in 0.012473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/RohithPrefab/Sidewall/props_DefaultMaterial_Normal.1001.png
-  artifactKey: Guid(161e6490b2c03654da5273d3114d2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RohithPrefab/Sidewall/props_DefaultMaterial_Normal.1001.png using Guid(161e6490b2c03654da5273d3114d2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20449448f92d6bd9695349af23f6802') in 0.019356 seconds
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/death from front headshot.fbx
+  artifactKey: Guid(ced132077d32a064e82099e92deee3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/death from front headshot.fbx using Guid(ced132077d32a064e82099e92deee3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ea314966c93ee9db6dbbb255136d4b') in 0.011273 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/jump loop.fbx
+  artifactKey: Guid(939164e167b35d54f9c06450c0e76ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/jump loop.fbx using Guid(939164e167b35d54f9c06450c0e76ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960418be12b09fe0bc93859f2f452994') in 0.010984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/sprint backward.fbx
+  artifactKey: Guid(2f17f5b7603aeba409164033cf3ba480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/sprint backward.fbx using Guid(2f17f5b7603aeba409164033cf3ba480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0e059342285af7e6573614fe068e45') in 0.016798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/turn 90 left.fbx
+  artifactKey: Guid(7b89c941fadc2e64089e1a3a3dd9bfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/turn 90 left.fbx using Guid(7b89c941fadc2e64089e1a3a3dd9bfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6922260330d30d9910d18c1defcc16') in 0.010660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward left.fbx
+  artifactKey: Guid(a9114c9d742effa439817e92cb90be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward left.fbx using Guid(a9114c9d742effa439817e92cb90be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fa70cc55b7907c77595041d5d05c06') in 0.010204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward right.fbx
+  artifactKey: Guid(4a6e8c1f86264414d942de377831a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward right.fbx using Guid(4a6e8c1f86264414d942de377831a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4ab21eed366f2e27d0e1b98b70c158') in 0.013100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching right.fbx
+  artifactKey: Guid(4ca399b397c31ed49a1dcdd934be01c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching right.fbx using Guid(4ca399b397c31ed49a1dcdd934be01c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223fe1778bb0bbb4666b444d067d97e3') in 0.009876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk forward left.fbx
+  artifactKey: Guid(ef8616521c0629543a3e0b17908f1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk forward left.fbx using Guid(ef8616521c0629543a3e0b17908f1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73d311abebd297166e346842e0ed08b') in 0.012641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward.fbx
+  artifactKey: Guid(838b14b06e7d55140a78050d456f62c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward.fbx using Guid(838b14b06e7d55140a78050d456f62c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6dfb2669b89b7127f4c79f0c64472d') in 0.009950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward.fbx
+  artifactKey: Guid(99e3cb8d98eda874eb93781f1e1682c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward.fbx using Guid(99e3cb8d98eda874eb93781f1e1682c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0efd6faa31eeb966fbf675a24a78b3b') in 0.015836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/run right.fbx
+  artifactKey: Guid(9f08f31ee15abcf4ba104497459dcaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run right.fbx using Guid(9f08f31ee15abcf4ba104497459dcaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26ba78ccdceb93c034ba014386bc2bb') in 0.016769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward left.fbx
+  artifactKey: Guid(956fcea0b498d824487a4597b4400852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward left.fbx using Guid(956fcea0b498d824487a4597b4400852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a259f84606448dc6c0cada40f09da3') in 0.009140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward.fbx
+  artifactKey: Guid(c5431841c2149f54ebfbf1cd2524765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward.fbx using Guid(c5431841c2149f54ebfbf1cd2524765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8883fbd609addac59bad984b9f3518b') in 0.014796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/run forward right.fbx
+  artifactKey: Guid(8f9e417bc291b4b43b8eb91c9a941cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run forward right.fbx using Guid(8f9e417bc291b4b43b8eb91c9a941cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa814af429460a944e6a91ad34397a5e') in 0.012796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/idle crouching.fbx
+  artifactKey: Guid(8d9e390b30000844da8aba02aa314948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/idle crouching.fbx using Guid(8d9e390b30000844da8aba02aa314948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1820c959336dd9e1fa1c9ff1041634') in 0.011005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/sprint backward right.fbx
+  artifactKey: Guid(cb326722ac135a842abfc263932257ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/sprint backward right.fbx using Guid(cb326722ac135a842abfc263932257ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3952db9b175cc95e99665df56ae9f81e') in 0.010195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/death from the front.fbx
+  artifactKey: Guid(76e5cfdd4bf48d34b904c1a552dd4270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/death from the front.fbx using Guid(76e5cfdd4bf48d34b904c1a552dd4270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96c078687999a561b91f591b157693d') in 0.011184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/death crouching headshot front.fbx
+  artifactKey: Guid(bcff2c71fb51fc94988ef29c53f78242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/death crouching headshot front.fbx using Guid(bcff2c71fb51fc94988ef29c53f78242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968516d76c62e503a6175e6c5e832ed6') in 0.015400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/run left.fbx
+  artifactKey: Guid(905c273f3550dad4dba76e3491bc4c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run left.fbx using Guid(905c273f3550dad4dba76e3491bc4c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5f545a3ca1b371da88dacfefa24ed8') in 0.008210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/death from back headshot.fbx
+  artifactKey: Guid(3a63c2ec49568894cb5d21b1400f8802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/death from back headshot.fbx using Guid(3a63c2ec49568894cb5d21b1400f8802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecddc6c7048f92a870ab12c9b9fe721') in 0.014101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/death from right.fbx
+  artifactKey: Guid(4c5593be49cf28d41b455c3fd3796f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/death from right.fbx using Guid(4c5593be49cf28d41b455c3fd3796f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fa2bae7353c6d23792474b3cfee1bf') in 0.011740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/sprint forward.fbx
+  artifactKey: Guid(d312d762ce3fc9b4ea69f7bebaa6bf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/sprint forward.fbx using Guid(d312d762ce3fc9b4ea69f7bebaa6bf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41058880088b1052af603d548d63f0e') in 0.011004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward right.fbx
+  artifactKey: Guid(8cf1500ba8fcabc479e8cdf353685991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward right.fbx using Guid(8cf1500ba8fcabc479e8cdf353685991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de979d9af3edd68e1814bcf8d80cffc2') in 0.012231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward right.fbx
+  artifactKey: Guid(d137fe3365a42ea438588ce79e83034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward right.fbx using Guid(d137fe3365a42ea438588ce79e83034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d928d126e9afd2c934ce7f799c2873') in 0.011746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx
+  artifactKey: Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx using Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890e9866309ff4badfd517c9d3807b51') in 0.093778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/run backward.fbx
+  artifactKey: Guid(defcef49fc06ab74e9e0c569a85cbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run backward.fbx using Guid(defcef49fc06ab74e9e0c569a85cbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d38499584152e7f381116760be5e769') in 0.013419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/idle crouching aiming.fbx
+  artifactKey: Guid(58ddb7f5ffb14b64fa1171e9dfde12e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/idle crouching aiming.fbx using Guid(58ddb7f5ffb14b64fa1171e9dfde12e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed6e29a0cc6edd80bc36fc947b4faa5') in 0.009726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlayerModelsAndAnimations/SoldierModel/sprint right.fbx
+  artifactKey: Guid(4d0d20114829b9a42a6a8d41e59eee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerModelsAndAnimations/SoldierModel/sprint right.fbx using Guid(4d0d20114829b9a42a6a8d41e59eee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbc36dd6756c9725d92ce7ad66e12bc') in 0.009073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
