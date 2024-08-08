@@ -1,17 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using Photon.Pun;
 
-public class Shooting : MonoBehaviour
+public class Shooting : MonoBehaviourPunCallbacks
 {
     public Camera FPS_Camera;
  
     public GameObject hitEffectPrefab;
  
+    [Header("Health Related Stuff")]
+    public float startHealth = 100;
+    private float health;
+    public Image healthBar;
+ 
     // Start is called before the first frame update
     void Start()
     {
-        
+        health = startHealth;
+        healthBar.fillAmount = health / startHealth;         
     }
 
     // Update is called once per frame
@@ -31,6 +39,24 @@ public class Shooting : MonoBehaviour
  
 	    GameObject hitEffectGameobject = Instantiate(hitEffectPrefab, _hit.point, Quaternion.identity);
 	    Destroy(hitEffectGameobject, 0.5f);
+ 
+	    if (_hit.collider.gameObject.CompareTag("Player")&&!_hit.collider.gameObject.GetComponent<PhotonView>().IsMine)
+            {
+                _hit.collider.gameObject.GetComponent<PhotonView>().RPC("TakeDamage",RpcTarget.AllBuffered,10f);
+            }
+        }
+    }
+ 
+    [PunRPC]
+    public void TakeDamage(float _damage, PhotonMessageInfo info)
+    {
+        health -= _damage;
+        Debug.Log(health);
+        healthBar.fillAmount = health / startHealth;
+        if (health <= 0f)
+        {
+            //Die();
+            Debug.Log(info.Sender.NickName+ " killed"+ info.photonView.Owner.NickName);
         }
     }
 }
