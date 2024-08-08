@@ -405,6 +405,7 @@
 "Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/PlayerMovementController.cs"
 "Assets/Scripts/PlayerSetup.cs"
+"Assets/Scripts/Shooting.cs"
 -langversion:9.0
 
 /deterministic
