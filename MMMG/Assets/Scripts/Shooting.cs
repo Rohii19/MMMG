@@ -15,11 +15,15 @@ public class Shooting : MonoBehaviourPunCallbacks
     private float health;
     public Image healthBar;
  
+    private Animator animator;
+ 
     // Start is called before the first frame update
     void Start()
     {
         health = startHealth;
-        healthBar.fillAmount = health / startHealth;         
+        healthBar.fillAmount = health / startHealth;    
+
+        animator = GetComponent<Animator>(); 
     }
 
     // Update is called once per frame
@@ -37,8 +41,7 @@ public class Shooting : MonoBehaviourPunCallbacks
         {
             Debug.Log(_hit.collider.gameObject.name);
  
-	    GameObject hitEffectGameobject = Instantiate(hitEffectPrefab, _hit.point, Quaternion.identity);
-	    Destroy(hitEffectGameobject, 0.5f);
+	    photonView.RPC("CreateHitEffect",RpcTarget.All,_hit.point);
  
 	    if (_hit.collider.gameObject.CompareTag("Player")&&!_hit.collider.gameObject.GetComponent<PhotonView>().IsMine)
             {
@@ -55,8 +58,23 @@ public class Shooting : MonoBehaviourPunCallbacks
         healthBar.fillAmount = health / startHealth;
         if (health <= 0f)
         {
-            //Die();
+            Die();
             Debug.Log(info.Sender.NickName+ " killed"+ info.photonView.Owner.NickName);
+        }
+    }
+ 
+    [PunRPC]
+    public void CreateHitEffect(Vector3 position)
+    {
+        GameObject hitEffectGameobject = Instantiate(hitEffectPrefab, position, Quaternion.identity);
+        Destroy(hitEffectGameobject, 0.5f);
+    }
+ 
+    void Die()
+    {
+        if (photonView.IsMine)
+        {
+            animator.SetBool("IsDead",true);            
         }
     }
 }

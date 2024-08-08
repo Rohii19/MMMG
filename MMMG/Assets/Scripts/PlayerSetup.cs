@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.UI;
 
 public class PlayerSetup : MonoBehaviourPunCallbacks
 {
@@ -16,9 +17,12 @@ public class PlayerSetup : MonoBehaviourPunCallbacks
  
     private Animator animator;
  
+    private Shooting shooter;
+ 
     // Start is called before the first frame update
     void Start()
     {
+        shooter = GetComponent<Shooting>();
         animator = GetComponent<Animator>();
         playerMovementController = GetComponent<PlayerMovementController>();
  
@@ -40,9 +44,11 @@ public class PlayerSetup : MonoBehaviourPunCallbacks
 	    playerMovementController.joystick = playerUIGameobject.transform.Find("Fixed Joystick").GetComponent<Joystick>();
             playerMovementController.fixedTouchField = playerUIGameobject.transform.Find("RotationTouchField").GetComponent<FixedTouchField>(); 
 
-            FPSCamera.enabled = true; 
+	    playerUIGameobject.transform.Find("FireButton").GetComponent<Button>().onClick.AddListener(()=>shooter.Fire());
+ 
+	    FPSCamera.enabled = true; 
 
-            animator.SetBool("IsSoldier",false);
+	    animator.SetBool("IsSoldier",false);
         }
         else
         { 
@@ -72,4 +78,3 @@ public class PlayerSetup : MonoBehaviourPunCallbacks
         
     }
 }
-
