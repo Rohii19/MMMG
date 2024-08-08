@@ -4757,13 +4757,13 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 844911829343124625, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 1053235536309186156, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9669998
       objectReference: {fileID: 0}
-    - target: {fileID: 1252434702089485027, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 1053235536309186156, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0026793105
       objectReference: {fileID: 0}
     - target: {fileID: 2239161346088015759, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4811,11 +4811,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5683290738756581819, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.403
+      value: 2.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5683290738756581819, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5683290738756581819, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.737
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: 6770902905681799248, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
       propertyPath: joystick
@@ -4825,48 +4829,19 @@ PrefabInstance:
       propertyPath: fixedTouchField
       value: 
       objectReference: {fileID: 1409684293}
-    - target: {fileID: 7402938894868800014, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
-      propertyPath: m_Enabled
+    - target: {fileID: 7574563729769539477, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8114099903196651906, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4416481956789347790, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 768782944}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
---- !u!1 &768782943 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4416481956789347790, guid: e119745fce2736f489bb66ca18cd50ab, type: 3}
-  m_PrefabInstance: {fileID: 768782942}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &768782944
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768782943}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2fb0103ce5980454ba1eb042efcf461b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &779370321
 GameObject:
   m_ObjectHideFlags: 0
