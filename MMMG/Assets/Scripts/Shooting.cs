@@ -21,7 +21,7 @@ public class Shooting : MonoBehaviourPunCallbacks
     void Start()
     {
         health = startHealth;
-        healthBar.fillAmount = health / startHealth;    
+        healthBar.fillAmount = health / startHealth;
 
         animator = GetComponent<Animator>(); 
     }
@@ -39,9 +39,9 @@ public class Shooting : MonoBehaviourPunCallbacks
 
         if (Physics.Raycast(ray,out _hit,100))
         {
-            Debug.Log(_hit.collider.gameObject.name);
- 
-	    photonView.RPC("CreateHitEffect",RpcTarget.All,_hit.point);
+            Debug.Log(_hit.collider.gameObject.name); 
+
+	    photonView.RPC("CreateHitEffect",RpcTarget.All,_hit.point); 
  
 	    if (_hit.collider.gameObject.CompareTag("Player")&&!_hit.collider.gameObject.GetComponent<PhotonView>().IsMine)
             {
@@ -54,7 +54,7 @@ public class Shooting : MonoBehaviourPunCallbacks
     public void TakeDamage(float _damage, PhotonMessageInfo info)
     {
         health -= _damage;
-        Debug.Log(health);
+        Debug.Log(health); 
         healthBar.fillAmount = health / startHealth;
         if (health <= 0f)
         {
@@ -74,7 +74,40 @@ public class Shooting : MonoBehaviourPunCallbacks
     {
         if (photonView.IsMine)
         {
-            animator.SetBool("IsDead",true);            
+            animator.SetBool("IsDead",true);   
+	    StartCoroutine(Respawn());
         }
+    }
+
+    IEnumerator Respawn()
+    {
+        GameObject reSpawnText = GameObject.Find("RespawnText");
+
+        float respawnTime = 8.0f;
+        while (respawnTime>0.0f)
+        {
+            yield return new WaitForSeconds(1.0f);
+            respawnTime -= 1.0f;
+
+            transform.GetComponent<PlayerMovementController>().enabled = false;
+            reSpawnText.GetComponent<Text>().text = "You are killed. Respawning at: " + respawnTime.ToString(".00");
+        }
+
+        animator.SetBool("IsDead",false);
+
+        reSpawnText.GetComponent<Text>().text = "";
+
+        int randomPoint = Random.Range(-20,20);
+        transform.position = new Vector3(randomPoint,0,randomPoint);
+        transform.GetComponent<PlayerMovementController>().enabled = true;
+
+        photonView.RPC("RegainHealth",RpcTarget.AllBuffered);
+    }
+ 
+    [PunRPC]
+    public void RegainHealth()
+    {
+        health = startHealth;
+        healthBar.fillAmount = health / startHealth;
     }
 }
