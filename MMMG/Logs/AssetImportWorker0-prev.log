@@ -15,7 +15,7 @@ D:/MMMG/MMMG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58138
+59893
 Successfully changed project path to: D:/MMMG/MMMG
 D:/MMMG/MMMG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/MMMG/MMMG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22348] Host "[IP] 192.168.100.13 [Port] 0 [Flags] 2 [Guid] 524839911 [EditorId] 524839911 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GG3N6VJP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3264] Host "[IP] 192.168.100.13 [Port] 0 [Flags] 2 [Guid] 2933337910 [EditorId] 2933337910 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GG3N6VJP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22348] Host "[IP] 192.168.100.13 [Port] 0 [Flags] 2 [Guid] 524839911 [EditorId] 524839911 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GG3N6VJP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3264] Host "[IP] 192.168.100.13 [Port] 0 [Flags] 2 [Guid] 2933337910 [EditorId] 2933337910 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GG3N6VJP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 24.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 20.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,53 +70,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.118044 seconds.
-- Loaded All Assemblies, in  1.140 seconds
+Registered in 0.229022 seconds.
+- Loaded All Assemblies, in  1.418 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 836 ms
+Android Extension - Scanning For ADB Devices 909 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.594 seconds
-Domain Reload Profiling: 2716ms
-	BeginReloadAssembly (373ms)
+- Finished resetting the current domain, in  1.859 seconds
+Domain Reload Profiling: 3253ms
+	BeginReloadAssembly (423ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (291ms)
-	LoadAllAssembliesAndSetupDomain (370ms)
-		LoadAssemblies (360ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (461ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (407ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (357ms)
-			TypeCache.Refresh (355ms)
-				TypeCache.ScanAssembly (325ms)
+		AnalyzeDomain (363ms)
+			TypeCache.Refresh (360ms)
+				TypeCache.ScanAssembly (332ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1595ms)
+	FinalizeReload (1860ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1479ms)
+		SetupLoadedEditorAssemblies (1723ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1155ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (1416ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (205ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,8 +124,8 @@ Domain Reload Profiling: 2716ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.801 seconds
-Refreshing native plugins compatible for Editor in 7.19 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.807 seconds
+Refreshing native plugins compatible for Editor in 7.02 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -135,47 +135,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.131 seconds
-Domain Reload Profiling: 2910ms
-	BeginReloadAssembly (475ms)
+- Finished resetting the current domain, in  1.227 seconds
+Domain Reload Profiling: 3013ms
+	BeginReloadAssembly (403ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (152ms)
-	LoadAllAssembliesAndSetupDomain (1056ms)
-		LoadAssemblies (1058ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (150ms)
+	LoadAllAssembliesAndSetupDomain (1138ms)
+		LoadAssemblies (980ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (356ms)
-			TypeCache.Refresh (302ms)
-				TypeCache.ScanAssembly (270ms)
+		AnalyzeDomain (428ms)
+			TypeCache.Refresh (372ms)
+				TypeCache.ScanAssembly (336ms)
 			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1132ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1228ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (825ms)
+		SetupLoadedEditorAssemblies (947ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (131ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (142ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (150ms)
-			ProcessInitializeOnLoadAttributes (450ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (56ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (68ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 6.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (402.5 KB). Loaded Objects now: 3909.
-Memory consumption went from 141.3 MB to 140.9 MB.
-Total: 4.304100 ms (FindLiveObjects: 0.386300 ms CreateObjectMapping: 0.110600 ms MarkObjects: 3.508800 ms  DeleteObjects: 0.296400 ms)
+Unloading 40 unused Assets / (402.4 KB). Loaded Objects now: 3909.
+Memory consumption went from 140.9 MB to 140.5 MB.
+Total: 5.270500 ms (FindLiveObjects: 0.443400 ms CreateObjectMapping: 0.181300 ms MarkObjects: 4.303000 ms  DeleteObjects: 0.341000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -192,394 +192,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 12141.295738 seconds.
-  path: Assets/Resources/PlayerPrefab.prefab
-  artifactKey: Guid(e119745fce2736f489bb66ca18cd50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PlayerPrefab.prefab using Guid(e119745fce2736f489bb66ca18cd50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b807b354ee10f10af33aa485e0595a') in 0.264411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 523
-========================================================================
-Received Import Request.
-  Time since last request: 67.233908 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.110770 seconds.
-  path: Assets/AnimationController
-  artifactKey: Guid(3c63fa786fc54c64a81309d83481f8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationController using Guid(3c63fa786fc54c64a81309d83481f8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce77455e3d4a331ded43aa1bd4b9afdf') in 0.001712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 28.623247 seconds.
-  path: Assets/AnimationController/New Animation.anim
-  artifactKey: Guid(de745cb303fde4f409c389c9ccf4af02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationController/New Animation.anim using Guid(de745cb303fde4f409c389c9ccf4af02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd965d9bbc3aff5a0e4c9fadd546d6da8') in 0.002632 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 8.398691 seconds.
-  path: Assets/AnimationController/New Animator Controller.controller
-  artifactKey: Guid(8f53983e165e3994ab58d25ad1cd28d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationController/New Animator Controller.controller using Guid(8f53983e165e3994ab58d25ad1cd28d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96d50a52ecb81bff6d30d966da62bc9') in 0.004246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 15.844814 seconds.
-  path: Assets/AnimationController/Generic Animation Controller.controller
-  artifactKey: Guid(2fb0103ce5980454ba1eb042efcf461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationController/Generic Animation Controller.controller using Guid(2fb0103ce5980454ba1eb042efcf461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed59eb24fe6ae842cbceb888907aede0') in 0.003016 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 127.979797 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx
-  artifactKey: Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/Swat.fbx using Guid(363fa3803ed716641a63917fadfec006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890e9866309ff4badfd517c9d3807b51') in 0.148344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 160
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/Textures/Soldier_head_diffuse.png
-  artifactKey: Guid(10eba4ba5b803d548af46e69311f1d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/Textures/Soldier_head_diffuse.png using Guid(10eba4ba5b803d548af46e69311f1d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebee6528e3f4991bad18809baf28b10e') in 0.105107 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/Textures/Soldier_head_specular.png
-  artifactKey: Guid(e4c515b086794cc48aed517a9daf3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/Textures/Soldier_head_specular.png using Guid(e4c515b086794cc48aed517a9daf3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc5517080cbf63715fb35cfd8ce20f1') in 0.095521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.181509 seconds.
-  path: Assets/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav
-  artifactKey: Guid(c4d8928c75c21af43998193f0f038429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav using Guid(c4d8928c75c21af43998193f0f038429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2a0bdc53f6b2bc12c0a29003d8c355') in 0.061274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png
-  artifactKey: Guid(5d71e30febe908949a93dafb077b4ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png using Guid(5d71e30febe908949a93dafb077b4ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee20815a2501549a0651838d85b7054') in 0.093736 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx
-  artifactKey: Guid(63742edd796d522458d772b44affdf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx using Guid(63742edd796d522458d772b44affdf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1051c7b22d3d2af1b0e1135267f440') in 0.333103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 30.504156 seconds.
-  path: Assets/PlayerModelsAndAnimations/FPS_Character.prefab
-  artifactKey: Guid(71eaa04145f267f44b2ab90724e551a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/FPS_Character.prefab using Guid(71eaa04145f267f44b2ab90724e551a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bca47709c9b0d2c5e8669adb7c5818') in 0.033440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 169
-========================================================================
-Received Import Request.
-  Time since last request: 9.833627 seconds.
-  path: Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures
-  artifactKey: Guid(8ddb7738b6ccaed42ad571375f006dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures using Guid(8ddb7738b6ccaed42ad571375f006dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f3e915c0906991ea74906d78bc5812') in 0.001067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.731931 seconds.
-  path: Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character
-  artifactKey: Guid(1433ee16f7924b14f9fc7311ecf3c113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character using Guid(1433ee16f7924b14f9fc7311ecf3c113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3ebf79442fceb581462f6e25d2690d') in 0.000810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.116522 seconds.
-  path: Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/FPS_Character.fbx
-  artifactKey: Guid(6cae2f82a0a62ff4ab9be3eeeda19688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/FPS_Character.fbx using Guid(6cae2f82a0a62ff4ab9be3eeeda19688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0afee931d3fb6a439d52435aaa0f07b') in 0.200701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 194
-========================================================================
-Received Import Request.
-  Time since last request: 17.057299 seconds.
-  path: Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/Materials
-  artifactKey: Guid(eeeeb7cf4b33ddb4e86ef942acd3ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/Materials using Guid(eeeeb7cf4b33ddb4e86ef942acd3ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921134cceb26020b2bc481f9b0fea77c') in 0.001481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.112758 seconds.
-  path: Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/Materials/Gun_Material.mat
-  artifactKey: Guid(8f5c42afab7b135488b8d6815747503e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/Materials/Gun_Material.mat using Guid(8f5c42afab7b135488b8d6815747503e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8fa4f34566dad45a6a8151791db13e') in 0.021284 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/Materials/Sword_Material.mat
-  artifactKey: Guid(fab18c70ffa50cc43bb35e8ed62aba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/Easy FPS/Model_Animations_Textures/main character/Materials/Sword_Material.mat using Guid(fab18c70ffa50cc43bb35e8ed62aba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9412bb250a5aca670db000a1954ff0') in 0.027779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 16.192078 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward left.fbx
-  artifactKey: Guid(956fcea0b498d824487a4597b4400852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward left.fbx using Guid(956fcea0b498d824487a4597b4400852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a259f84606448dc6c0cada40f09da3') in 0.011610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward.fbx
-  artifactKey: Guid(99e3cb8d98eda874eb93781f1e1682c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward.fbx using Guid(99e3cb8d98eda874eb93781f1e1682c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0efd6faa31eeb966fbf675a24a78b3b') in 0.006594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 3.176384 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward left.fbx
-  artifactKey: Guid(a9114c9d742effa439817e92cb90be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching backward left.fbx using Guid(a9114c9d742effa439817e92cb90be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fa70cc55b7907c77595041d5d05c06') in 0.008119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching left.fbx
-  artifactKey: Guid(1f0bf96a69a512a40859a21a4e2f8e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching left.fbx using Guid(1f0bf96a69a512a40859a21a4e2f8e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481a965b7a2f0103d2ccb668c185d1a1') in 0.010779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk forward left.fbx
-  artifactKey: Guid(ef8616521c0629543a3e0b17908f1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk forward left.fbx using Guid(ef8616521c0629543a3e0b17908f1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73d311abebd297166e346842e0ed08b') in 0.007687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward.fbx
-  artifactKey: Guid(c5431841c2149f54ebfbf1cd2524765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward.fbx using Guid(c5431841c2149f54ebfbf1cd2524765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8883fbd609addac59bad984b9f3518b') in 0.006926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk forward.fbx
-  artifactKey: Guid(e48b1f594b3eef241bc133df05b52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk forward.fbx using Guid(e48b1f594b3eef241bc133df05b52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b82ccac0e7df0d9d78de512f95130a') in 0.009411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward right.fbx
-  artifactKey: Guid(4a6e8c1f86264414d942de377831a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk crouching forward right.fbx using Guid(4a6e8c1f86264414d942de377831a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4ab21eed366f2e27d0e1b98b70c158') in 0.006918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 147.411720 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk forward left.fbx
-  artifactKey: Guid(ef8616521c0629543a3e0b17908f1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk forward left.fbx using Guid(ef8616521c0629543a3e0b17908f1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ec59204d455da944ca813990faaa07') in 0.009652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 55.010307 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk forward.fbx
-  artifactKey: Guid(e48b1f594b3eef241bc133df05b52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk forward.fbx using Guid(e48b1f594b3eef241bc133df05b52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0272697d81dcd74ebac070afd04bfb69') in 0.006044 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 33.613022 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk forward.fbx
-  artifactKey: Guid(e48b1f594b3eef241bc133df05b52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk forward.fbx using Guid(e48b1f594b3eef241bc133df05b52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7c74dc3126658f0185fc1cc0a824a1') in 0.009310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 39.587283 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/idle.fbx
-  artifactKey: Guid(2f550a02cf30c474e80c6a46ed896933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/idle.fbx using Guid(2f550a02cf30c474e80c6a46ed896933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501a3e595724835c27e1312618c68505') in 0.009326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 40.688934 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run backward.fbx
-  artifactKey: Guid(defcef49fc06ab74e9e0c569a85cbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run backward.fbx using Guid(defcef49fc06ab74e9e0c569a85cbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e64301a14730fe6acd54d2061e8da6d') in 0.007614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 20.156182 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run backward left.fbx
-  artifactKey: Guid(14145bac5c2bbb047bfe3ed69a7e7b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run backward left.fbx using Guid(14145bac5c2bbb047bfe3ed69a7e7b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbdd8934764c1bd43e4aeebd392bf18') in 0.006770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 24.996190 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run backward right.fbx
-  artifactKey: Guid(8847bb8a970dc2e4fa16cbed7b7686ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run backward right.fbx using Guid(8847bb8a970dc2e4fa16cbed7b7686ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ba206fd1853204ec82b0c06ac6e94a') in 0.009642 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 19.471182 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run forward.fbx
-  artifactKey: Guid(ae42690baf4f9f5478915d873190f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run forward.fbx using Guid(ae42690baf4f9f5478915d873190f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a8440006d274bf2bf686665338c7c7') in 0.010778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 15.421126 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run forward left.fbx
-  artifactKey: Guid(64d56f0c3336d1749bceebf7dd5c44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run forward left.fbx using Guid(64d56f0c3336d1749bceebf7dd5c44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e6512e4d5f5176df94b4a39f285dbc') in 0.009754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 15.323138 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run forward right.fbx
-  artifactKey: Guid(8f9e417bc291b4b43b8eb91c9a941cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run forward right.fbx using Guid(8f9e417bc291b4b43b8eb91c9a941cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcad1443bb662daec605729694a7c11') in 0.011326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 13.112575 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run left.fbx
-  artifactKey: Guid(905c273f3550dad4dba76e3491bc4c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run left.fbx using Guid(905c273f3550dad4dba76e3491bc4c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1d6d61ccf7e5c320760396f6eeec51') in 0.014186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 9.634189 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/run right.fbx
-  artifactKey: Guid(9f08f31ee15abcf4ba104497459dcaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/run right.fbx using Guid(9f08f31ee15abcf4ba104497459dcaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242499e596cae764c661fcbd7c1126b5') in 0.009088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 26.067533 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward.fbx
-  artifactKey: Guid(838b14b06e7d55140a78050d456f62c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward.fbx using Guid(838b14b06e7d55140a78050d456f62c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f13c104eda84b447d7c6d23b7ea00c4') in 0.007523 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 14.768287 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward left.fbx
-  artifactKey: Guid(956fcea0b498d824487a4597b4400852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward left.fbx using Guid(956fcea0b498d824487a4597b4400852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98a392467e97c584abef97f2de2c70c') in 0.043010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 20.049712 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward left.fbx
-  artifactKey: Guid(956fcea0b498d824487a4597b4400852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward left.fbx using Guid(956fcea0b498d824487a4597b4400852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d2f7ce1c330ade3c435a2fd1e50f38') in 0.008687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 14.975041 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk backward right.fbx
-  artifactKey: Guid(8cf1500ba8fcabc479e8cdf353685991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk backward right.fbx using Guid(8cf1500ba8fcabc479e8cdf353685991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9228ec0de1023fe9854093a2e9d86a00') in 0.006823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 34.469629 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk forward left.fbx
-  artifactKey: Guid(ef8616521c0629543a3e0b17908f1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk forward left.fbx using Guid(ef8616521c0629543a3e0b17908f1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acbd612bd4bd6c65a0fc098c7b96c72') in 0.008735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 14.287022 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk forward right.fbx
-  artifactKey: Guid(b87fe673fd9f90448bcb5a0aff87dac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk forward right.fbx using Guid(b87fe673fd9f90448bcb5a0aff87dac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49cb404d8a8a03c1c3997831cb05b72') in 0.008112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 10.448173 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk left.fbx
-  artifactKey: Guid(504534fcc0f6f8e439c84a2bffc491cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk left.fbx using Guid(504534fcc0f6f8e439c84a2bffc491cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e1d3b3941ece2ed7e160545434012') in 0.009733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 7.983684 seconds.
-  path: Assets/PlayerModelsAndAnimations/SoldierModel/walk right.fbx
-  artifactKey: Guid(a38a867ed228d214f8cac4e37ce765aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerModelsAndAnimations/SoldierModel/walk right.fbx using Guid(a38a867ed228d214f8cac4e37ce765aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c68cca1758f9725258316f85fe37a06') in 0.006675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 23.850626 seconds.
-  path: Assets/AnimationController/Generic Animation Controller.controller
-  artifactKey: Guid(2fb0103ce5980454ba1eb042efcf461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationController/Generic Animation Controller.controller using Guid(2fb0103ce5980454ba1eb042efcf461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ced362738fb6654aef8052eac66607') in 0.004915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.599 seconds
-Refreshing native plugins compatible for Editor in 13.16 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.558 seconds
+Refreshing native plugins compatible for Editor in 11.43 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -588,46 +204,46 @@ Native extension for Android target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.384 seconds
-Domain Reload Profiling: 3959ms
-	BeginReloadAssembly (465ms)
+- Finished resetting the current domain, in  2.486 seconds
+Domain Reload Profiling: 4020ms
+	BeginReloadAssembly (472ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (85ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (150ms)
-	LoadAllAssembliesAndSetupDomain (853ms)
-		LoadAssemblies (1148ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (128ms)
+	LoadAllAssembliesAndSetupDomain (812ms)
+		LoadAssemblies (1069ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (2385ms)
+		AnalyzeDomain (59ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2487ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1041ms)
+		SetupLoadedEditorAssemblies (1053ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (161ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (145ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (189ms)
-			ProcessInitializeOnLoadAttributes (548ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
-			AfterProcessingInitializeOnLoad (82ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (583ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (74ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Refreshing native plugins compatible for Editor in 7.66 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (415.9 KB). Loaded Objects now: 3960.
-Memory consumption went from 137.5 MB to 137.1 MB.
-Total: 5.651900 ms (FindLiveObjects: 0.405700 ms CreateObjectMapping: 0.135200 ms MarkObjects: 4.708600 ms  DeleteObjects: 0.401000 ms)
+Unloading 3411 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (374.6 KB). Loaded Objects now: 3913.
+Memory consumption went from 134.2 MB to 133.9 MB.
+Total: 4.557600 ms (FindLiveObjects: 0.407700 ms CreateObjectMapping: 0.114300 ms MarkObjects: 3.721500 ms  DeleteObjects: 0.312100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -645,26 +261,71 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 41.187607 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRun.fbx
-  artifactKey: Guid(1cb8ed3cbba15f0479fbae54e0a963df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRun.fbx using Guid(1cb8ed3cbba15f0479fbae54e0a963df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656ad8bda8ae5099871c6fd2973bfcc4') in 0.056425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 157
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRunTurnSharp.fbx
-  artifactKey: Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRunTurnSharp.fbx using Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a1f8cc65b9458c3c63c79a1dd3cb9c') in 0.011766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 158
-========================================================================
-Received Import Request.
-  Time since last request: 82.380924 seconds.
-  path: Assets/AnimationController/Generic Animation Controller.controller
-  artifactKey: Guid(2fb0103ce5980454ba1eb042efcf461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationController/Generic Animation Controller.controller using Guid(2fb0103ce5980454ba1eb042efcf461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc42ceff72b4221581e3a6a67bb638c') in 0.007296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.622 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.231 seconds
+Domain Reload Profiling: 4825ms
+	BeginReloadAssembly (529ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (164ms)
+	LoadAllAssembliesAndSetupDomain (780ms)
+		LoadAssemblies (1107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (3233ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (214ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (230ms)
+			ProcessInitializeOnLoadAttributes (714ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (97ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 9.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3411 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (374.6 KB). Loaded Objects now: 3917.
+Memory consumption went from 134.2 MB to 133.9 MB.
+Total: 7.242900 ms (FindLiveObjects: 0.578000 ms CreateObjectMapping: 0.927200 ms MarkObjects: 5.391400 ms  DeleteObjects: 0.344900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

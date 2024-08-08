@@ -14,9 +14,12 @@ public class PlayerSetup : MonoBehaviourPunCallbacks
  
     public Camera FPSCamera;
  
+    private Animator animator;
+ 
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         playerMovementController = GetComponent<PlayerMovementController>();
  
         if (photonView.IsMine)
@@ -34,14 +37,16 @@ public class PlayerSetup : MonoBehaviourPunCallbacks
  
 	    //Instantiate PlayerUI
             GameObject playerUIGameobject = Instantiate(playerUIPrefab);
-                playerMovementController.joystick = playerUIGameobject.transform.Find("Fixed Joystick").GetComponent<Joystick>();
-                playerMovementController.fixedTouchField = playerUIGameobject.transform.Find("RotationTouchField").GetComponent<FixedTouchField>(); 
+	    playerMovementController.joystick = playerUIGameobject.transform.Find("Fixed Joystick").GetComponent<Joystick>();
+            playerMovementController.fixedTouchField = playerUIGameobject.transform.Find("RotationTouchField").GetComponent<FixedTouchField>(); 
 
-	    FPSCamera.enabled = true; 
+            FPSCamera.enabled = true; 
+
+            animator.SetBool("IsSoldier",false);
         }
         else
         { 
-            //Activate Soldier, Deactivate FPS Hands
+	    //Activate Soldier, Deactivate FPS Hands
             foreach (GameObject gameObject in FPS_Hands_ChildGameobjects)
             {
                 gameObject.SetActive(false);
@@ -56,6 +61,8 @@ public class PlayerSetup : MonoBehaviourPunCallbacks
             GetComponent<RigidbodyFirstPersonController>().enabled = false;
  
 	    FPSCamera.enabled = false;
+ 
+	    animator.SetBool("IsSoldier", true); 
         } 
     }
 
