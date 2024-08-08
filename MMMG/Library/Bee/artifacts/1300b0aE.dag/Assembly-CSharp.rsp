@@ -400,6 +400,7 @@
 "Assets/PlayerModelsAndAnimations/Easy FPS/Scripts/MouseLookScript.cs"
 "Assets/PlayerModelsAndAnimations/Easy FPS/Scripts/PlayerMovementScript.cs"
 "Assets/Prefabs/RohithPrefab/JumpPad.cs"
+"Assets/Scripts/FixedTouchField.cs"
 "Assets/Scripts/MobileFPSGameManager.cs"
 "Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/PlayerMovementController.cs"

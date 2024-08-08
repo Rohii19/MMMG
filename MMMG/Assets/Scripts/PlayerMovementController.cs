@@ -5,7 +5,8 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerMovementController : MonoBehaviour
 {
-    public Joystick joystick;    
+    public Joystick joystick;   
+    public FixedTouchField fixedTouchField; 
    
     private RigidbodyFirstPersonController rigidBodyController;
 
@@ -13,8 +14,7 @@ public class PlayerMovementController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rigidBodyController = GetComponent<RigidbodyFirstPersonController>();
-        
+        rigidBodyController = GetComponent<RigidbodyFirstPersonController>();       
     }
 
     // Update is called once per frame
@@ -26,6 +26,7 @@ public class PlayerMovementController : MonoBehaviour
     void FixedUpdate()
     {
         rigidBodyController.joystickInputAxis.x = joystick.Horizontal;
-        rigidBodyController.joystickInputAxis.y = joystick.Vertical;        
+        rigidBodyController.joystickInputAxis.y = joystick.Vertical;
+        rigidBodyController.mouseLook.lookInputAxis = fixedTouchField.TouchDist;       
     }
 }
