@@ -214,7 +214,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             
             Vector2 input = new Vector2
                 {
-                    x = joystickInputAxis.x,
+					x = joystickInputAxis.x,
 					y = joystickInputAxis.y
 
                 };

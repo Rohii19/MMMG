@@ -30,8 +30,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public void LookRotation(Transform character, Transform camera)
         {
-            float xRot = lookInputAxis.x* XSensitivity;
+			float xRot = lookInputAxis.x* XSensitivity;
 			float yRot = lookInputAxis.y* YSensitivity;
+
 
 
             m_CharacterTargetRot *= Quaternion.Euler (0f, yRot, 0f);
